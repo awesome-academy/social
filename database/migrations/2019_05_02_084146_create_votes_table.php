@@ -17,7 +17,6 @@ class CreateVotesTable extends Migration
             $table->increments('id');
             $table->integer('user_id');
             $table->integer('post_id');
-            $table->string('post_type', 50);
             $table->tinyinteger('vote_type', 2);
             $table->timestamps();
         });

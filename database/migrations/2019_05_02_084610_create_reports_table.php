@@ -20,6 +20,7 @@ class CreateReportsTable extends Migration
             $table->text('content');
             $table->string('report_type');
             $table->timestamps();
+            
         });
     }
 

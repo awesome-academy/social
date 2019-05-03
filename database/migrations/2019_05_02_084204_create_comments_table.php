@@ -20,6 +20,7 @@ class CreateCommentsTable extends Migration
             $table->integer('parent_id');
             $table->text('content');
             $table->timestamps();
+            
         });
     }
 
